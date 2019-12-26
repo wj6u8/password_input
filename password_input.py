@@ -1,7 +1,8 @@
+password = 'a123456'
 x = 3
 while True:
 	keyin = input('請輸入密碼: ')
-	if keyin == 'a123456':
+	if keyin == password:
 		print('登入成功')
 		break
 	else:
